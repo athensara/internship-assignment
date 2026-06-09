@@ -12,17 +12,17 @@ public class GradeCalculator {
     }
 
     public String getGrade(double[] marks){
-        double total = getAverage(marks);
-        if (total>=90 && total<=100){
+        double average = getAverage(marks);
+        if (average>=90){
             return ("A");
         }
-        else if (total>=75 && total<=89){
+        else if (average>=75){
             return("B");
         }
-        else if (total>=60 && total<=74){
+        else if (average>=60){
             return("C");
         }
-        else if (total>=45 && total<=59){
+        else if (average>=45){
             return("D");
         }
         else {
