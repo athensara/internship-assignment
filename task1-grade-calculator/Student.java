@@ -1,18 +1,39 @@
+/**
+ * Represents a student and their marks.
+ *
+ * @author Sneha Timsina
+ */
 public class Student {
-    String name;
-    double[] marks;
 
-    public Student (String name, double[] marks){
+    private String name;
+    private double[] marks;
+
+    /**
+     * Creates a Student object.
+     *
+     * @param name the student's name
+     * @param marks array containing marks for 5 subjects
+     */
+    public Student(String name, double[] marks) {
         this.name = name;
         this.marks = marks;
     }
 
-    public String getName(){
+    /**
+     * Returns the student's name.
+     *
+     * @return student name
+     */
+    public String getName() {
         return this.name;
     }
 
-    public double[] getMarks(){
+    /**
+     * Returns the student's marks.
+     *
+     * @return array of subject marks
+     */
+    public double[] getMarks() {
         return this.marks;
     }
-    
 }
