@@ -1,5 +1,4 @@
 # Task 2 - Todo List
-# Simple To-Do List App
 
 A console-based To-Do List application written in Java that allows users to manage tasks through a menu-driven interface.
 
