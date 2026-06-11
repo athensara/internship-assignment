@@ -1,5 +1,9 @@
 .DS_Store
 <<<<<<< HEAD
 .DS_Store
+venv/
+instance/
+__pycache__/
+*.pyc
 =======
 >>>>>>> f0c45cd (Remove system files and update gitignore)
